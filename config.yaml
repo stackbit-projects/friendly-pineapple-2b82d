@@ -1,0 +1,66 @@
+title: pixelflow
+baseURL: /
+params:
+  google_fonts:
+    - - Inter
+      - '400, 700'
+    - - Fira Code
+      - '400, 400i, 700, 700i'
+  heading_font: Inter
+  color_scheme: light
+  accent_color: blue
+  header:
+    title: pixelflow
+    has_nav: true
+    nav_links:
+      - label: Home
+        url: /
+        style: link
+      - label: Portfolio
+        url: /portfolio/
+        style: link
+#      - label: Blog
+#        url: /blog/
+#        style: link
+#      - label: Style Guide
+#        url: /style-guide/
+#        style: link
+      - label: About
+        url: /about/
+        style: link
+  footer:
+    content: >-
+      Made with <a href="https://pages.cloudflare.com/">Cloudflare Pages</a> and <3, by pixelflow.
+    has_social: true
+    social_links:
+      - label: Twitter
+        url: 'https://twitter.com/dan_pixelflow'
+        style: icon
+        icon: twitter
+        new_window: true
+      - label: Instagram
+        url: 'https://www.instagram.com/pixelflow.jpg'
+        style: icon
+        icon: instagram
+        new_window: true
+      - label: Dribbble
+        url: 'https://dribbble.com/pixelflow'
+        style: icon
+        icon: dribbble
+        new_window: true
+      - label: GitHub
+        url: 'https://www.github.com/pixelflowxyz'
+        style: icon
+        icon: github
+        new_window: true
+  domain: 'https://pixelflow.xyz'
+taxonomies:
+  stub: stub
+disableKinds:
+  - RSS
+  - taxonomy
+  - taxonomyTerm
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
